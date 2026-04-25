@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZeQue — Zero Queue</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Browser tab logo — place your file at pictures/logo.png -->
+  <link rel="icon" href="pictures/logo.svg" type="image/svg" />
+</head>
+
+<body>
+
+  <!-- ======================================================
+     INTRO ANIMATION OVERLAY
+     ====================================================== -->
+  <div id="intro">
+    <div class="i-ticket">
+      <div class="it-l">
+        <span class="it-logo">ZeQue</span>
+        <span class="it-sub">Zero Queue</span>
+      </div>
+      <div class="it-perf">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="it-r">
+        <span class="it-ico">🎟️</span>
+        <span class="it-num">TRAVEL ANYWHERE</span>
+      </div>
+    </div>
+    <span class="i-plane">✈️</span>
+    <p class="i-text">Booking your experience...</p>
+    <p class="i-hint">tap anywhere to skip</p>
+  </div>
+
+  <!-- ======================================================
+     NAVBAR
+     ====================================================== -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="nz">Ze</span><span class="nq">Que</span><span class="ndot">●</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">Company Profile</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+      </ul>
+      <button class="hbg" id="hbg">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======================================================
+     HERO
+     ====================================================== -->
+  <section class="hero" id="hero">
+
+    <div class="hero-bg-img">
+      <img src="pictures/hero-bg.jpg" alt="Hero Background" onerror="this.parentElement.style.display='none'" />
+    </div>
+    <div class="hero-bg-overlay"></div>
+
+    <div class="hero-grid"></div>
+    <div class="hero-orbs">
+      <div class="orb o1"></div>
+      <div class="orb o2"></div>
+      <div class="orb o3"></div>
+    </div>
+
+    <div class="hero-body">
+      <div class="hero-badge">
+        <span class="bdot"></span>
+        Zero Queue Technology &nbsp;·&nbsp; India's First
+      </div>
+      <h1 class="hero-title">
+        Skip the Line.<br />
+        <span class="tg">Own the Moment.</span>
+      </h1>
+      <p class="hero-sub">
+        ZeQue lets you book tickets for monuments, heritage sites, temples, amusement parks
+        and theatres — instantly, digitally, effortlessly. No queues. No counters. Just experiences.
+      </p>
+      <div class="hero-btns">
+        <a href="#services" class="btn btn-t">Explore Services</a>
+        <a href="#about" class="btn btn-o">About ZeQue</a>
+      </div>
+      <div class="marquee-wrap">
+        <div class="marquee-track">
+          <span>🏛️ Taj Mahal</span><span>🎢 Wonderla</span><span>🎭 PVR IMAX</span>
+          <span>⛩️ Meenakshi Temple</span><span>🏰 Red Fort</span><span>🌊 Water Kingdom</span>
+          <span>🎪 Imagica</span><span>🏯 Amber Fort</span><span>🎬 INOX</span><span>🕌 Jama Masjid</span>
+          <span>🏛️ Taj Mahal</span><span>🎢 Wonderla</span><span>🎭 PVR IMAX</span>
+          <span>⛩️ Meenakshi Temple</span><span>🏰 Red Fort</span><span>🌊 Water Kingdom</span>
+          <span>🎪 Imagica</span><span>🏯 Amber Fort</span><span>🎬 INOX</span><span>🕌 Jama Masjid</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-cards">
+      <div class="hcard">
+        <span class="hcard-ico">🏛️</span>
+        <div><strong>Taj Mahal</strong><small>Agra, UP</small></div>
+        <span class="hbadge">✓ Booked</span>
+      </div>
+      <div class="hcard">
+        <span class="hcard-ico">🎢</span>
+        <div><strong>Wonderla</strong><small>Bengaluru</small></div>
+        <span class="hbadge yl">2 Left</span>
+      </div>
+      <div class="hcard">
+        <span class="hcard-ico">🎭</span>
+        <div><strong>PVR IMAX</strong><small>Mumbai</small></div>
+        <span class="hbadge">✓ Open</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+     COMPANY PROFILE / ABOUT
+     CHANGE 1: Shortened to ~1.5 paras with Read More toggle
+     ====================================================== -->
+  <section class="sec about-sec" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="av-bignum">500<span>+</span></div>
+          <div class="av-card av1"><span>🗺️</span>
+            <p>Pan-India Coverage</p>
+          </div>
+          <div class="av-card av2"><span>⚡</span>
+            <p>Instant E-Tickets</p>
+          </div>
+          <div class="av-card av3"><span>🔒</span>
+            <p>Secure Payments</p>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="eye">✦ Company Profile</span>
+          <h2 class="htitle">What is <span class="hl">ZeQue</span>?</h2>
+          <div class="bar"></div>
+
+          <!-- Always visible: first 1.5 paras -->
+          <p class="bp"><strong>ZeQue</strong> is a smart digital ticketing platform designed to eliminate long queues
+            at popular destinations across India. The name comes from <em>"Zero Queue"</em> — representing
+            our mission to make visiting monuments, heritage sites, temples, amusement parks, and tourist
+            attractions seamless and hassle-free.</p>
+
+          <p class="bp about-preview-end">Our platform connects travellers with cultural landmarks, entertainment
+            destinations, and
+            historical sites through a simple and secure booking system. &nbsp;<span class="about-ellipsis">...</span>
+          </p>
+
+          <!-- Hidden extra content revealed on Read More -->
+          <div class="about-extra" id="aboutExtra">
+            <p class="bp"> Whether you're planning a heritage
+              tour or a weekend thrill, ZeQue puts your ticket in your pocket in seconds before you even leave home. Say
+              goodbye to standing in long queues under the sun. With ZeQue, you book online, receive
+              an instant QR e-ticket, and walk straight in. Fast, reliable, and completely stress-free.</p>
+          </div>
+
+          <button class="read-more-btn" id="readMoreBtn" onclick="toggleAbout()">Read more ›</button>
+
+          <div class="pills">
+            <span>🏛️ Monuments</span><span>🎢 Adventure Parks</span>
+            <span>🎭 Theatres</span><span>⛩️ Temples</span><span>🏰 Heritage Sites</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+     GALLERY / SLIDER
+     ====================================================== -->
+  <section class="sec gallery-sec" id="gallery">
+    <div class="wrap wc">
+      <span class="eye">✦ Destinations</span>
+      <h2 class="htitle">Places Waiting for You</h2>
+      <div class="bar bar-c"></div>
+    </div>
+    <div class="wrap">
+      <div class="slider-wrap">
+        <div class="slider-track" id="sliderTrack">
+
+          <div class="slide">
+            <div class="slide-bg slide-img-wrap">
+              <img src="pictures/s1.jpg" alt="Taj Mahal, Agra" class="slide-photo" loading="lazy"
+                onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,#1a0a2e,#3d1a6e,#7c3aed)'" />
+              <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-info"><strong>Taj Mahal</strong><span>Agra, Uttar Pradesh · Monument</span></div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg slide-img-wrap">
+              <img src="pictures/s2.jpg" alt="Red Fort, New Delhi" class="slide-photo" loading="lazy"
+                onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,#2d0a0a,#7c1a1a,#dc2626)'" />
+              <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-info"><strong>Red Fort</strong><span>New Delhi · Heritage</span></div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg slide-img-wrap">
+              <img src="pictures/s3.jpg" alt="Wonderla, Bengaluru" class="slide-photo" loading="lazy"
+                onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,#0a2d1a,#1a6e3d,#059669)'" />
+              <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-info"><strong>Wonderla</strong><span>Bengaluru, Karnataka · Adventure Park</span></div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg slide-img-wrap">
+              <img src="pictures/s4.jpg" alt="Meenakshi Temple, Madurai" class="slide-photo" loading="lazy"
+                onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,#2d1a00,#7c4a00,#d97706)'" />
+              <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-info"><strong>Meenakshi Temple</strong><span>Madurai, Tamil Nadu · Temple</span></div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg slide-img-wrap">
+              <img src="pictures/s5.jpg" alt="Imagica, Khopoli" class="slide-photo" loading="lazy"
+                onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,#001a2d,#003d7c,#0284c7)'" />
+              <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-info"><strong>Imagica</strong><span>Khopoli, Maharashtra · Theme Park</span></div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg slide-img-wrap">
+              <img src="pictures/s6.jpg" alt="PVR IMAX, Mumbai" class="slide-photo" loading="lazy"
+                onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,#1a001a,#4a006e,#9333ea)'" />
+              <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-info"><strong>PVR IMAX</strong><span>Mumbai, Maharashtra · Cinema</span></div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg slide-img-wrap">
+              <img src="pictures/s7.jpg" alt="Amber Fort, Jaipur" class="slide-photo" loading="lazy"
+                onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,#2d1500,#7c3d00,#b45309)'" />
+              <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-info"><strong>Amber Fort</strong><span>Jaipur, Rajasthan · Heritage</span></div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg slide-img-wrap">
+              <img src="pictures/s8.jpg" alt="Mysore Palace" class="slide-photo" loading="lazy"
+                onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,#002d1a,#007c4a,#059669)'" />
+              <div class="slide-overlay"></div>
+            </div>
+            <div class="slide-info"><strong>Mysore Palace</strong><span>Mysuru, Karnataka · Palace</span></div>
+          </div>
+
+        </div>
+        <button class="sl-btn sl-prev" id="slPrev">&#8249;</button>
+        <button class="sl-btn sl-next" id="slNext">&#8250;</button>
+        <div class="sl-dots" id="slDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+     VISION & MISSION
+     CHANGE 2: VISION and MISSION labels bigger
+     ====================================================== -->
+  <section class="sec vm-sec" id="vision">
+    <div class="wrap">
+      <div class="vm-grid">
+        <div class="vm-card rv">
+          <div class="vm-icon"></div>
+          <span class="eye vm-eye-big">Our Vision</span>
+          <h3>Where We're Headed</h3>
+          <p>To become the leading digital platform that transforms how people access and experience
+            attractions around the world — making every destination instantly bookable, forever queue-free.</p>
+          <div class="vm-deco"></div>
+        </div>
+        <div class="vm-mid">
+          <div class="vm-mid-logo"><span class="nz">Ze</span><span class="nq">Que</span></div>
+        </div>
+        <div class="vm-card rv">
+          <div class="vm-icon"></div>
+          <span class="eye vm-eye-big">Our Mission</span>
+          <h3>How We Do It</h3>
+          <p>To eliminate physical queues through technology and make visiting places faster, smarter,
+            and more convenient — one digital ticket at a time, across every corner of India and beyond.</p>
+          <div class="vm-deco"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+     SERVICES
+     CHANGE 3: Photo hidden by default, revealed on hover
+     ====================================================== -->
+  <section class="sec svc-sec" id="services">
+    <div class="wrap wc">
+      <span class="eye">✦ What We Offer</span>
+      <h2 class="htitle">Our Services</h2>
+      <div class="bar bar-c bar-g"></div>
+      <p class="ssub">Everything you need for a seamless, queue-free experience — all in one place.</p>
+    </div>
+    <div class="wrap">
+      <div class="svc-grid">
+
+        <div class="svc-card rv">
+          <div class="svc-card-photo" style="background-image:url('pictures/svc1.jpg')"></div>
+          <div class="svc-content">
+            <div class="svc-ico">🏛️</div>
+            <h3>Monument &amp; Heritage Booking</h3>
+            <p>Book entry tickets for India's most iconic monuments, UNESCO sites and historical landmarks.
+              Show your QR code at the gate and walk straight in — no counter, no queue.</p>
+          </div>
+        </div>
+
+        <div class="svc-card svc-feat rv">
+          <span class="svc-ribbon">Most Popular</span>
+          <div class="svc-card-photo" style="background-image:url('pictures/svc2.jpg')"></div>
+          <div class="svc-content">
+            <div class="svc-ico">🎢</div>
+            <h3>Adventure &amp; Amusement Parks</h3>
+            <p>Reserve slots at theme parks, water parks, zip lines and adventure trails with real-time
+              availability and instant booking confirmation.</p>
+          </div>
+        </div>
+
+        <div class="svc-card rv">
+          <div class="svc-card-photo" style="background-image:url('pictures/svc3.jpg')"></div>
+          <div class="svc-content">
+            <div class="svc-ico">🎭</div>
+            <h3>Theatre &amp; Cinema Tickets</h3>
+            <p>Book seats at PVR, INOX, Cinepolis and stage theatres. Pick your seat, pay securely
+              and enjoy the show without any last-minute rush.</p>
+          </div>
+        </div>
+
+        <div class="svc-card rv">
+          <div class="svc-card-photo" style="background-image:url('pictures/svc4.jpg')"></div>
+          <div class="svc-content">
+            <div class="svc-ico">📍</div>
+            <h3>Location-Based Discovery</h3>
+            <p>Tell us where you're headed and we surface the best bookable experiences nearby —
+              curated by interest, distance and rating.</p>
+          </div>
+        </div>
+
+        <div class="svc-card rv">
+          <div class="svc-card-photo" style="background-image:url('pictures/svc5.jpg')"></div>
+          <div class="svc-content">
+            <div class="svc-ico">⚡</div>
+            <h3>Instant E-Tickets</h3>
+            <p>Every ticket delivered as a QR code to your phone the moment you book.
+              No printing, no counters — just scan and enter.</p>
+          </div>
+        </div>
+
+        <div class="svc-card rv">
+          <div class="svc-card-photo" style="background-image:url('pictures/svc6.png')"></div>
+          <div class="svc-content">
+            <div class="svc-ico">🔁</div>
+            <h3>Flexible Modifications</h3>
+            <p>Plans changed? Reschedule or cancel bookings hassle-free through our self-service
+              portal — anytime, anywhere, no phone calls needed.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+     MINDS BEHIND ZEQUE
+     ====================================================== -->
+  <section class="sec team-sec" id="team">
+    <div class="wrap wc">
+      <span class="eye">✦ The People</span>
+      <h2 class="htitle">Minds Behind ZeQue</h2>
+      <div class="bar bar-c"></div>
+      <p class="team-intro">A team of passionate builders, travellers and technologists — united by one belief:
+        <em>travel should never waste your time.</em>
+      </p>
+    </div>
+    <div class="wrap">
+      <div class="team-grid">
+
+        <div class="tcard rv">
+          <div class="tav">
+            <div class="tav-ring"></div>
+            <div class="tav-inner">
+              <img src="pictures/founder.jpg" alt="Founder" class="tav-img"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <span class="tav-init" style="display:none">SS</span>
+            </div>
+          </div>
+          <h3>Soumadip Sarkar</h3><span class="trole">Founder</span>
+          <a href="https://www.linkedin.com/in/soumadip-sarkar" class="tlin" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>LinkedIn</a>
+        </div>
+
+        <div class="tcard rv">
+          <div class="tav">
+            <div class="tav-ring"></div>
+            <div class="tav-inner">
+              <img src="pictures/CEO.jpeg" alt="CEO" class="tav-img"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <span class="tav-init" style="display:none">SS</span>
+            </div>
+          </div>
+          <h3>Sounak Saha</h3><span class="trole">C-founder + CEO</span>
+          <a href="https://www.linkedin.com/in/myselfsounak" class="tlin" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>LinkedIn</a>
+        </div>
+
+        <div class="tcard rv">
+          <div class="tav">
+            <div class="tav-ring"></div>
+            <div class="tav-inner">
+              <img src="pictures/CMO.jpeg" alt="CMO" class="tav-img"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <span class="tav-init" style="display:none">AM</span>
+            </div>
+          </div>
+          <h3>Arpan Mondal</h3><span class="trole">CMO</span>
+          <a href="https://www.linkedin.com/in/arpan-mondal-02a9b827b" class="tlin" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>LinkedIn</a>
+        </div>
+
+        <div class="tcard rv">
+          <div class="tav">
+            <div class="tav-ring"></div>
+            <div class="tav-inner">
+              <img src="pictures/CTO.jpeg" alt="CTO" class="tav-img"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <span class="tav-init" style="display:none">AD</span>
+            </div>
+          </div>
+          <h3>Arnab Das</h3><span class="trole">CTO</span>
+          <a href="https://www.linkedin.com/in/arnab-das-594a57285/" class="tlin" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>LinkedIn</a>
+        </div>
+
+        <div class="tcard rv">
+          <div class="tav">
+            <div class="tav-ring"></div>
+            <div class="tav-inner">
+              <img src="pictures/COO.jpeg" alt="COO" class="tav-img"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <span class="tav-init" style="display:none">MM</span>
+            </div>
+          </div>
+          <h3>Mouli Mandal</h3><span class="trole">COO</span>
+          <a href="https://www.linkedin.com/in/mouli-mandal-68a720301/" class="tlin" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>LinkedIn</a>
+        </div>
+
+        <div class="tcard rv">
+          <div class="tav">
+            <div class="tav-ring"></div>
+            <div class="tav-inner">
+              <img src="pictures/CFO.jpeg" alt="CFO" class="tav-img"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <span class="tav-init" style="display:none">DS</span>
+            </div>
+          </div>
+          <h3>Dhara Soni</h3><span class="trole">CFO</span>
+          <a href="https://www.linkedin.com/in/dhara-soni-60902b294/" class="tlin" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>LinkedIn</a>
+        </div>
+
+        <div class="tcard rv">
+          <div class="tav">
+            <div class="tav-ring"></div>
+            <div class="tav-inner">
+              <img src="pictures/CPRO.jpeg" alt="CPRO" class="tav-img"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <span class="tav-init" style="display:none">AS</span>
+            </div>
+          </div>
+          <h3>Avijit Sahana</h3><span class="trole">CPRO</span>
+          <a href="https://www.linkedin.com/in/avijit-sahana" class="tlin" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>LinkedIn</a>
+        </div>
+
+      </div>
+
+      <div class="team-quote">
+        <span class="qm">&ldquo;</span>
+        <p>We didn't just build an app. We gave back the most valuable thing to travellers — <strong>their
+            time.</strong></p>
+        <span class="qm">&rdquo;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+     CONTACT & FEEDBACK
+     ====================================================== -->
+  <section class="sec contact-sec" id="contact">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <span class="eye">✦ Get In Touch</span>
+          <h2 class="htitle">Let's Connect</h2>
+          <div class="bar"></div>
+          <p class="bp">Whether it's a partnership proposal, a venue listing request, or just a question —
+            we're always open. Reach out and we'll respond within 24 hours.</p>
+          <div class="ci-list">
+            <div class="ci-item"><span class="ci-ico">📧</span>
+              <div><strong>Email</strong>
+                <p>mouli8467@gmail.com</p>
+              </div>
+            </div>
+            <div class="ci-item"><span class="ci-ico">📞</span>
+              <div><strong>Phone</strong>
+                <p>+91 95931 05208</p>
+              </div>
+            </div>
+            <div class="ci-item"><span class="ci-ico">📍</span>
+              <div><strong>Office</strong>
+                <p>IIT Kharagpur, West Bengal — 721302</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-box">
+          <form class="cform" id="cForm">
+            <div class="contact-title">Contact Us</div>
+            <div class="fg"><label>Full Name</label><input type="text" id="cName" placeholder="John Smith" required />
+            </div>
+            <div class="fg"><label>Email Address</label><input type="email" id="cEmail" placeholder="name@email.com"
+                required /></div>
+            <div class="fg"><label>Subject</label><input type="text" id="cSubject"
+                placeholder="Venue Partnership Inquiry" /></div>
+            <div class="fg"><label>Message</label><textarea rows="4" id="cMessage"
+                placeholder="How can we help you?"></textarea></div>
+            <button type="submit" class="btn btn-t btn-full" id="cSubmitBtn">Send Message &rarr;</button>
+          </form>
+          <form class="cform" id="fForm" style="display:none">
+            <div class="fg"><label>Your Name</label><input type="text" id="fName" placeholder="Mouli Mandal" required />
+            </div>
+            <div class="fg">
+              <label>Rate Your Experience</label>
+              <div class="stars" id="stars">
+                <span data-v="1">★</span><span data-v="2">★</span>
+                <span data-v="3">★</span><span data-v="4">★</span><span data-v="5">★</span>
+              </div>
+            </div>
+            <div class="fg">
+              <label>Service Used</label>
+              <select id="fService">
+                <option>Monument / Heritage Site</option>
+                <option>Adventure / Amusement Park</option>
+                <option>Theatre / Cinema</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="fg"><label>Your Feedback</label><textarea rows="4" id="fMessage"
+                placeholder="Tell us about your experience..."></textarea></div>
+            <button type="submit" class="btn btn-t btn-full" id="fSubmitBtn">Submit Feedback &rarr;</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================
+     FOOTER
+     ====================================================== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo f-logo">
+          <span class="nz">Ze</span><span class="nq">Que</span><span class="ndot">●</span>
+        </a>
+        <p class="fdesc">Zero Queue. Pure Experience.<br />India's smartest digital ticketing platform.</p>
+        <div class="fsocs">
+          <a href="#" class="fsoc">𝕏</a><a href="#" class="fsoc">in</a>
+          <a href="#" class="fsoc">f</a><a href="#" class="fsoc">▶</a>
+        </div>
+      </div>
+      <div class="fcol">
+        <h4>Quick Links</h4>
+        <a href="#about">Company Profile</a><a href="#services">Services</a>
+        <a href="#team">Team</a><a href="#contact">Contact Us</a>
+      </div>
+      <div class="fcol">
+        <h4>Services</h4>
+        <a href="#services">Monument Booking</a>
+        <a href="#services">Adventure Parks</a>
+        <a href="#services">Theatre Tickets</a>
+        <a href="#services">Nearby Discovery</a>
+      </div>
+      <div class="fcol">
+        <h4>Contact Info</h4>
+        <p>📧 mouli8467@gmail.com</p>
+        <p>📞 +91 95931 05208</p>
+        <p>📍 IIT Kharagpur,<br />West Bengal — 721302</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
